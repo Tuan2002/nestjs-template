@@ -1,0 +1,73 @@
+# Dependencies
+node_modules
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist
+build
+coverage
+
+# Logs
+*.log
+logs
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE files
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# Documentation
+*.md
+README.md
+docs/
+
+# Test files
+test/
+**/*.spec.ts
+**/*.test.ts
+**/__test__/
+
+# Linting and formatting
+.eslintrc*
+.prettierrc*
+eslint.config.js
+
+# Scripts
+scripts/
+
+# Docker
+.docker/
+Dockerfile
+.dockerignore
+
+# License
+LICENSE
+
+# Husky
+.husky/
+
+# Coverage
+coverage/
+
+# TypeScript config (will be copied explicitly)
+# tsconfig.json
+# tsconfig.build.json

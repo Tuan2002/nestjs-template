@@ -1,0 +1,16 @@
+export enum FileType {
+  IMAGE_PNG = 'image/png',
+  IMAGE_JPEG = 'image/jpeg',
+  IMAGE_JPG = 'image/jpg',
+  IMAGE_GIF = 'image/gif',
+  IMAGE_WEBP = 'image/webp',
+  PDF = 'application/pdf',
+  WORD_DOC = 'application/msword',
+  WORD_DOCX = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+  EXCEL_XLS = 'application/vnd.ms-excel',
+  EXCEL_XLSX = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+  POWERPOINT_PPT = 'application/vnd.ms-powerpoint',
+  POWERPOINT_PPTX = 'application/vnd.openxmlformats-officedocument.presentationml.presentation',
+  ZIP = 'application/zip',
+  TEXT = 'text/plain',
+}
